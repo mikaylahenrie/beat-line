@@ -1,0 +1,43 @@
+@font-face {
+  font-family:  neonderthaw;
+  src:  url('/public/fonts/neonderthaw/neonderthaw-regular.ttf');
+}
+
+body {
+  background-color:  #111;
+}
+
+h1 {
+  color: #ddd;
+  font-family:  neonderthaw;
+  text-align: center;
+  font-size:  40px;
+}
+
+h1.highlight {
+  color:  #fff;
+  text-shadow: 5x 5px #fff;
+}
+
+hr {
+  color:  #ddd;
+  border-width: 1px;
+  position:  absolute;
+  top: 60vh;
+  left: -2px;
+}
+
+hr.bringInTheLine {
+  animation-name:  bringInTheLine;
+  animation-duration: 3s;
+  width: 100%;
+}
+
+@keyframes bringInTheLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
