@@ -34,10 +34,31 @@ hr.bringInTheLine {
 }
 
 @keyframes bringInTheLine {
-  from {
+  0% {
     width: 0;
   }
-  to {
+  20%{
+    width: 25%;
+  }
+  25% {
+    width: 27%;
+  }
+  30% {
+    width: 30%;
+  }
+  35% {
+    width: 30%;
+  }
+  40% {
+    width: 30%;
+  }
+  45% {
+    width: 33%;
+  }
+  50% {
+    width: 36%;
+  }
+  100% {
     width: 100%;
   }
 }
