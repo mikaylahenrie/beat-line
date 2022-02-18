@@ -1,11 +1,11 @@
 {
-  "name": "test1",
+  "name": "beat-line",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for test1 goes here",
+  "description": "",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Mikayla Taylor",
   "directories": {
     "doc": "doc",
     "test": "tests"

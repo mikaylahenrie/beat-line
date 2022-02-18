@@ -1,6 +1,11 @@
 @font-face {
   font-family:  neonderthaw;
-  src:  url('/public/fonts/neonderthaw/neonderthaw-regular.ttf');
+  src:  url('/fonts/neonderthaw/neonderthaw-regular.ttf');
+}
+
+@font-face {
+  font-family:  cabin;
+  src:  url('/fonts/cabin/static/Cabin/Cabin-regular.ttf');
 }
 
 body {
@@ -16,7 +21,30 @@ h1 {
 
 h1.highlight {
   color:  #fff;
-  text-shadow: 5x 5px #fff;
+}
+
+.sign-in-button-wrap {
+  text-align:  center;
+  width:  100%;
+  position:  absolute;
+  top:  32vh;
+}
+
+.sign-in-button {
+  color:  #ddd;
+  text-align:  center;
+  font-family: cabin;
+  font-size: 19px;
+  width: 234px;
+  background-color:  #111;
+  border:  none;
+  cursor:  pointer;
+  z-index: 200 !important;
+}
+
+.spotify-logo-sign-in {
+  height:  70px;
+  margin: 15px 0 10px 0;
 }
 
 hr {

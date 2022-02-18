@@ -7,6 +7,11 @@ module.exports = function (defaults) {
     // Add options here
   });
 
+  app.import('vendor/sjcl/sjcl.js', {
+    as: 'sjcl'
+  });
+
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //

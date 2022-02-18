@@ -1,5 +1,5 @@
-import Application from 'test1/app';
-import config from 'test1/config/environment';
+import Application from 'beat-line/app';
+import config from 'beat-line/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';
