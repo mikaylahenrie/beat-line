@@ -6,7 +6,7 @@ module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     minifyJS: {
       options: {
-        exclude: ["sjcl/sjcl.js"]
+        exclude: ["/sjcl.js"]
       }
     }
     // Add options here
