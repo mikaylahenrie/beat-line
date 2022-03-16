@@ -5,12 +5,12 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     'ember-cli-terser': {
-      exclude: ['sjcl/sjcl.js']
+      exclude: ['sjcl.js']
     }
     // Add options here
   });
 
-  app.import('vendor/sjcl/sjcl.js', {
+  app.import('vendor/sjcl.js', {
     as: 'sjcl'
   });
 
